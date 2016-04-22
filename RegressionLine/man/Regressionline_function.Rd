@@ -18,7 +18,7 @@ None
 }
 \description{
 This function allows you to plot a regression line based on points generated
-from two normal distribution which
+from two normal distribution
 }
 \examples{
 Regressionline_function()
