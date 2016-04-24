@@ -1,0 +1,10 @@
+Package: Regressionline
+Title: plot a regression line 
+Version: 0.0.1
+Authors: Xingxing("xingxing", email = "xingxing@wisc.edu", role = c("aut", "cre"))
+Description: Plot a regression line based on the randomly generated points.
+Depends:
+    R (>= 3.2.3)
+License: What license is it under?
+LazyData: true
+RoxygenNote: 5.0.1

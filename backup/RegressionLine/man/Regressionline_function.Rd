@@ -14,7 +14,7 @@ Regressionline_function(numb = 100, mu_x = 10, mu_y = 20)
 \item{mu_y}{The mean of normal distribution that generates y Defaults 20}
 }
 \value{
-a picture
+None
 }
 \description{
 This function allows you to plot a regression line based on points generated

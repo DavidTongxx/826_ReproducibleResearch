@@ -1,0 +1,23 @@
+---
+title: "BasicInstruction"
+author: "Xingxing Tong"
+
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Put the title of your vignette here}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8](inputenc)
+---
+
+
+An example of 10 points with $\mu_1=5$,$\mu_2=10$
+
+```{r}
+library(Regressionline)
+points<- 10
+mu_1 <- 5
+mu_2 <- 10
+Regressionline_function(points,mu_1,mu_2)
+```
+
+
