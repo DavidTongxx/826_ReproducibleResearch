@@ -1,7 +1,7 @@
 Package: Regressionline
 Title: Txx Plot a Regression Line
 Version: 0.0.1
-Date: 4/24/2016
+Date: 4/28/2016
 Author: Xingxing <xingxing@wisc.edu>
 Maintainer: Xingxing <xingxing@wisc.edu>
 Description: Plot a regression line based on the randomly generated points.
@@ -9,7 +9,7 @@ Depends:
     R (>= 3.2.3)
 Imports:
     ggplot2
-Suggests: knitr, rmarkdown
+Suggests: knitr, rmarkdown, testthat
 VignetteBuilder: knitr
 License: MIT + file LICENSE
 RoxygenNote: 5.0.1

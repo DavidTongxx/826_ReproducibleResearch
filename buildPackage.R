@@ -8,7 +8,12 @@ setwd("~/GitHub/826_ReproducibleResearch/RegressionLine")
 
 devtools::document()
 
-create("RegressionLine")
+
+
+setwd("~/GitHub/826_ReproducibleResearch")
+install("RegressionLine")
+
+
 
 
 
