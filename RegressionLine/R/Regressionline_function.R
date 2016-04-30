@@ -15,4 +15,10 @@ Regressionline_function <- function(numb=100,mu_x=10,mu_y=20){
                        y=rnorm(n=numb,mean=mu_y,sd=10))
   ggplot(mydata, aes_string(x='x',y='y')) +geom_point()+geom_smooth(method = "lm",se=FALSE)
 
-  }
+}
+
+#' @export
+gettingmean <- function(x)
+{
+  mean(x, na.rm=TRUE)
+}
