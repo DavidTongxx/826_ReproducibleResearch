@@ -17,6 +17,14 @@ Regressionline_function <- function(numb=100,mu_x=10,mu_y=20){
 
 }
 
+#' Calculate mean
+#'
+#' Calculate mean dropping any NAs
+#'
+#' @param x Numeric vector
+#' @return The mean of \code{x}, omitting any missing values
+#' @examples
+#' mean(c(1,NA,5,6))
 #' @export
 gettingmean <- function(x)
 {
