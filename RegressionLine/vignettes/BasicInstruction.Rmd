@@ -13,11 +13,9 @@ vignette: >
 An example of 10 points with $\mu_1=5$,$\mu_2=10$
 
 ```{r}
-library(Regressionline)
+library(RegressionLine)
 points<- 10
 mu_1 <- 5
 mu_2 <- 10
 Regressionline_function(points,mu_1,mu_2)
 ```
-
-
